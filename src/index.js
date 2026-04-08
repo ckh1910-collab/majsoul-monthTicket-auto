@@ -37,7 +37,7 @@ const SERVER_CONFIGS = {
   },
   en: {
     key: 'en',
-    base: 'https://mahjongsoul.game.yo-star.com/',
+    base: 'https://mahjongsoul.game.yo-star.com/kr',
     origin: 'https://mahjongsoul.game.yo-star.com',
     routeLang: 'en',
     tag: 'en',
