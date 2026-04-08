@@ -37,10 +37,10 @@ const SERVER_CONFIGS = {
   },
   en: {
     key: 'en',
-    base: 'https://mahjongsoul.game.yo-star.com/kr',
+    base: 'https://mahjongsoul.game.yo-star.com/',
     origin: 'https://mahjongsoul.game.yo-star.com',
-    routeLang: 'en',
-    tag: 'en',
+    routeLang: 'kr',
+    tag: 'kr',
     loginMode: 'oauth_code',
     oauthType: 22,
     currencyPlatforms: [1, 4, 5, 9, 12]
