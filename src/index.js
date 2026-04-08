@@ -4,7 +4,7 @@ const { createHmac, randomUUID } = require('node:crypto');
 const protobuf = require('protobufjs/light');
 const WebSocket = require('ws');
 
-const DEFAULT_SERVER = 'jp';
+const DEFAULT_SERVER = 'en';
 const BUY_GREEN_GIFT = false;
 const GREEN_GIFT_PRICE_GOLD = 15000;
 const GREEN_GIFT_MAX_COUNT_PER_GOODS = 4;
@@ -27,8 +27,8 @@ const DEFAULT_DEVICE = {
 const SERVER_CONFIGS = {
   jp: {
     key: 'jp',
-    base: 'https://game.mahjongsoul.com/',
-    origin: 'https://game.mahjongsoul.com',
+    base: 'https://mahjongsoul.game.yo-star.com/',
+    origin: 'https://mahjongsoul.game.yo-star.com',
     routeLang: 'jp',
     tag: 'jp',
     loginMode: 'oauth_code',
@@ -39,8 +39,8 @@ const SERVER_CONFIGS = {
     key: 'en',
     base: 'https://mahjongsoul.game.yo-star.com/',
     origin: 'https://mahjongsoul.game.yo-star.com',
-    routeLang: 'kr',
-    tag: 'kr',
+    routeLang: 'en',
+    tag: 'en',
     loginMode: 'oauth_code',
     oauthType: 22,
     currencyPlatforms: [1, 4, 5, 9, 12]
